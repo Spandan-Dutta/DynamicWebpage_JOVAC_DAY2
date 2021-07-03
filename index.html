@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>Job Registration Form</title>
+    <style>
+        body {
+            background-color: cyan;
+            text-emphasis-color: black;
+        }
+        form {
+            padding: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Job Registration Form</h1>
+    <p align = "center">* Applicant should not be Under-Graduate</p>
+    <form action="develop.jsp" align="center">
+        <b>Name:</b> <input type="text" name="name" > <br>
+        <b>Gender: </b> <input type="radio" name="gender"  value="male"> Male
+        <input type="radio" name="gender"  value="female"> Female <br>
+        <b>Age: </b> <input type="text" name="age" > <br>
+        <b>Highest Qualification: </b> 
+        <select name="hq">
+            <option value="pg">Post Graduate</option>
+            <option value="g">Graduate</option>
+            <option value="ug">Under Graduate</option>
+        </select> <br>
+        <b>Area of interest: </b> 
+        <select name="aoi">
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+        </select> <br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
